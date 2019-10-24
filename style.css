@@ -1,0 +1,134 @@
+.bag{
+    width: 100vw;
+    height:50vh;
+   
+}
+body{
+     background-image:url('kitchen.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.plan{
+    background-image: url('plan1.jpg');
+    height:600px;
+    width:400px;
+    background-size: 400px 600px;
+    opacity:.6;
+    background-repeat: no-repeat;
+ background-position:top-left;
+}
+.plan:hover{
+    opacity:1;
+}
+#btn1{
+    margin-top:35px;
+    
+     margin-left: 27px;
+   
+}
+.planRight2{
+    margin-top:20px;
+    margin-right:20px;
+    display: flex;
+    justify-content: flex-end;
+}
+#btn2{
+    margin-left:135px;
+}
+#btn3{
+    margin-top:235px;
+    margin-left:27px;
+
+}
+#btn4{
+    margin-top:268px;
+    margin-left: 120px;
+
+}
+.plan1{
+    display:none;
+    background-image: url('plan1.jpg');
+    height:600px;
+    width:400px;
+    background-size: 400px 600px;
+    opacity:.6;
+    background-repeat: no-repeat;
+ background-position:top-left;
+}
+#btn5{
+    margin-left: 100px;
+}
+#btn19{
+    margin-left: 200px;
+}
+.closeIcon{
+    height:50px;
+    opacity: 1;
+}
+
+.planRight {
+    margin-top:20px;
+    margin-right:20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cam1{
+    height: 35px;
+    /* margin-top:1px; */
+
+    opacity: 0.5;
+    width: 35px;
+}
+.cam1:hover{
+opacity: 1;
+cursor: pointer;
+}
+.navid{
+    padding-top: 10px;
+    display: flex;
+    padding-right: 50px;
+    justify-content:flex-end;
+    width: 100%;
+}
+.nav-container{
+    display: flex;
+    height: 10vh;
+
+}
+.logo-div{
+    display: flex;
+    padding-left: 30px;
+    color:rgb(18, 18, 116);
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+.close{
+    background-color: white;
+    opacity: .5;
+    height: 50px;
+    font-family: 
+    font-size: 50px;
+}
+.close:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+button{
+    height:5vh;
+    width:7vw;
+    margin-right: 20px;
+    border:none;
+    border-radius: 10px;
+    opacity: .6;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(36, 36, 131);
+}
+button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
